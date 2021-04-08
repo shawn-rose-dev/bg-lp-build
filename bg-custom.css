@@ -1,0 +1,159 @@
+/*Bluegreen - LP - Custom*/
+/*Shawn Rose*/
+
+body {
+	overflow-x: hidden;
+	font-family: Arial, Helvetica, Sans-Serif;
+	background: #efedeb;
+}
+
+#header {
+	background: #fff;
+}
+
+.member {
+  	color: #33302a;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding-top: 1rem;
+	text-align: center
+}
+
+#hero {
+	background: #0080a6;
+	padding-right: 0;
+    padding-left: 0;
+}
+
+#upper-cta {background: #0080a6;}
+
+#upper-cta p {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: 500;
+	line-height: 26px;
+	margin: 0;
+}
+
+#upper-cta a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#upper-cta div:nth(2) {}
+
+.body-copy p {
+	font-size: 15px;
+	line-height: 23px;
+	color: #33302a;
+}
+
+#destination-drive {
+	background: #0080a6;
+	color: #fff;
+}
+
+.destination-hdr  {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+
+}
+
+.destination-sub  {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.destination-loc  {
+  font-size: 18px;
+  color: #0080a6;
+  font-weight: 700;
+
+}
+
+#destination-more {
+	background: #d6d1ca;
+}
+
+.lower-cta-hdr p {
+  font-size: 34px;
+  color: #33302a;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.lower-cta-copy {
+	font-size: 16px;
+}
+
+.lower-cta-hdr a {
+  font-size:34px;
+  color: #33302a;
+  font-weight: 700;
+  text-decoration: none;
+
+}
+
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+
+@media (min-width: 576px) {
+  .container-sm, .container {
+    max-width: 540px;
+  }
+
+}
+@media (min-width: 768px) {
+  .container-md, .container-sm, .container {
+    max-width: 720px;
+  }
+
+  #upper-cta p {
+	font-size: 20px;
+	
+}
+
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+}
+@media (min-width: 992px) {
+  .container-lg, .container-md, .container-sm, .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1170px) {
+  .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+    max-width: 1320px;
+  }
+}
